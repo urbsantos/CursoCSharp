@@ -27,7 +27,7 @@ namespace CursoCSharp.EstruturaDeControle {
                     Console.BackgroundColor = ConsoleColor.Green;
                     Console.WriteLine("Número encontrato em {0} tentativas", tentativas);
                     Console.BackgroundColor = corAnterior;
-                } else if (palpite > numeroSecreto){
+                } else if (palpite > numeroSecreto) {
                     Console.WriteLine("Menor... Tente novamente");
                     Console.WriteLine("Tentativas restantes: {0}", tentativasRestantes);
                 } else {
