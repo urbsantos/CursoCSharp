@@ -62,6 +62,7 @@ namespace CursoCSharp {
                 {"Exercício 01 - Classes e Métodos", Exercicio01.Executar},
                 {"Exercício 02 - Classes e Métodos", Exercicio02.Executar},
                 {"Exercício 03 - Classes e Métodos", Exercicio03.Executar},
+                {"Exercício 04 - Classes e Métodos", Exercicio04.Executar},
             });
 
             central.SelecionarEExecutar();
