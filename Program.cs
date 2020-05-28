@@ -5,6 +5,7 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.ExerciciosTreinamento;
+using CursoCSharp.Colecoes;
 
 namespace CursoCSharp {
     class Program {
@@ -57,12 +58,18 @@ namespace CursoCSharp {
                 {"Valor vs Referência - Classes e Métodos", ValorVsReferencia.Executar},
                 {"Parâmetros por Referência - Classes e Métodos", ParametrosPorReferencia.Executar},
                 {"Parâmetro com Valor Padrão - Classes e Métodos", ParametroPadrao.Executar},
-
-                //Exercicios Treinamento CIn
+                
+                //Exercicios Treinamento CIn - Parte 1
                 {"Exercício 01 - Classes e Métodos", Exercicio01.Executar},
                 {"Exercício 02 - Classes e Métodos", Exercicio02.Executar},
                 {"Exercício 03 - Classes e Métodos", Exercicio03.Executar},
                 {"Exercício 04 - Classes e Métodos", Exercicio04.Executar},
+                
+                //Coleções
+                {"Array - Coleções", Colecoes.Array.Executar},
+                {"List - Coleções", ColecoesList.Executar},
+                {"Array List - Coleções", ColecoesArrayList.Executar},
+                {"Set - Coleções", ColecoesSet.Executar},
             });
 
             central.SelecionarEExecutar();
