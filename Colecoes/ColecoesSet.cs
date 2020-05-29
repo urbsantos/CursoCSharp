@@ -14,6 +14,7 @@ namespace CursoCSharp.Colecoes {
             var combo = new HashSet<Produto> {
                 new Produto("Camisa", 29.9),
                 new Produto("8ª Temp GoT", 99.9),
+                new Produto("Poster", 10),
                 new Produto("Poster", 10)
             };
 
